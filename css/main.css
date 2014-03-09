@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../fonts/Lato-Light-webfont.eot');
+    src: url('../fonts/Lato-Light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Light-webfont.svg') format('svg'),
+        url('../fonts/Lato-Light-webfont.woff') format('woff'),
+        url('../fonts/Lato-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular-webfont.eot');
+    src: url('../fonts/Lato-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular-webfont.svg') format('svg'),
+        url('../fonts/Lato-Regular-webfont.woff') format('woff'),
+        url('../fonts/Lato-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LatoHeavy';
+    src: url('../fonts/Lato-Black-webfont.eot');
+    src: url('../fonts/Lato-Black-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Black-webfont.svg') format('svg'),
+        url('../fonts/Lato-Black-webfont.woff') format('woff'),
+        url('../fonts/Lato-Black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{ text-decoration: none; color: #2980b9;}
+a:hover{text-decoration:underline;}
+a:active {background-color: transparent;}
+
+body {
+    font-family: "LatoLight",  Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #404646;
+    font-weight: normal;
+}
+
+h1 {
+  font-family: "LatoHeavy", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+h2 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+header{
+    text-align: center;
+    background: #f2f2f2 url('../img/bg-noise-dark.png') repeat 0 0 scroll;
+    padding: 48px 0 55px 0;
+}
+
+header h1{
+    color: #555;
+    letter-spacing: 6px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
+}
+
+header h2{
+    color: #999;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
+}
+
+section{
+    padding: 85px 0 85px 0;
+    text-align:center;
+}
+
+.column {
+  max-width: 675px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section#bio{
+    color:#F2F2F2;
+    font: 18px/24px "LatoLight",  Helvetica, Arial, sans-serif;
+    background: #464646 url('../img/bg-noise-dark.png') repeat 0 0 scroll;
+}
+
+section#work{
+    color:#F2F2F2;
+    font: 20px/26px "LatoLight",  Helvetica, Arial, sans-serif;
+    background: #e06d5e url('../img/bg-noise-dark.png') repeat 0 0 scroll;
+}
+
+#utexas{
+    color: #CC5000;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    display: inline;
+}
+
+footer{
+    background: #37b0e9 url('../img/bg-noise-dark.png') repeat 0 0 scroll;
+    text-align: center;
+    padding: 65px 0 90px 0;
+}
+
+footer .links li{
+    font-size: 72px;
+    display: inline;
+}
+
+footer p {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    padding: 25px;
+}
