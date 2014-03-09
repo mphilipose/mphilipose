@@ -33,7 +33,8 @@
 
 a{ text-decoration: none; color: #2980b9;}
 a:hover{text-decoration:underline;}
-a:active {background-color: transparent;}
+a:active {background-color:transparent;}
+a:visited{ text-decoration: none; }
 
 body {
     font-family: "LatoLight",  Helvetica, Arial, sans-serif;
@@ -106,14 +107,25 @@ section#work{
 }
 
 footer{
-    background: #37b0e9 url('../img/bg-noise-dark.png') repeat 0 0 scroll;
+    background: #DDD url('../img/bg-noise-dark.png') repeat 0 0 scroll;
     text-align: center;
     padding: 65px 0 90px 0;
+
 }
 
 footer .links li{
     font-size: 72px;
     display: inline;
+}
+
+footer .links li a{
+    color: #BBB;
+    text-decoration: none;
+}
+
+footer .links li a:hover{
+    color: #268ED4;
+    text-decoration: none;
 }
 
 footer p {
