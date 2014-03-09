@@ -48,6 +48,7 @@ h1 {
   text-transform: uppercase;
   font-size: 45px;
 }
+
 h2 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 30px;
@@ -118,4 +119,41 @@ footer .links li{
 footer p {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header {
+        text-align: center;
+        background: #f2f2f2 url('../img/bg-noise-dark.png') repeat 0 0 scroll;
+        padding: 35px 0 35px 0;
+    }
+
+    header h1 {
+        font-size: 26px;
+        letter-spacing: 4px;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 25px 0 25px 0;
+    }
+
+    section p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    footer .links {
+        list-style: none;
+        margin: 0;
+        padding: 0px;
+        text-align: center;
+    }
+
+    footer .links li  {
+        display: block;
+    }
 }
