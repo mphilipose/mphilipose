@@ -16,12 +16,12 @@ canvas {
 }
 
 a {
-	color: #EAE7DD;
-  text-decoration: none;
+	color: #D2C1B3;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #E5DFC6;
+  color: #DDCBA1;
 }
 
 #particles {
@@ -83,6 +83,7 @@ h1, h2{
 .intro #about em{
 	font-weight: bold;
 	font-style: normal;
+	color: #E3B723;
 }
 
 .intro h1{
@@ -97,15 +98,6 @@ h1, h2{
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-}
-
-.intro h2 em{
-	font-family: "Georgia", serif;
-	font-weight: bold;
-	color: #E5923C;
-	font-style: normal;
-	letter-spacing: 0px;
-	text-transform: uppercase;
 }
 
 .links{
